@@ -1,0 +1,82 @@
+.box {
+    width:1200px ;
+    margin: 0 auto;
+    text-decoration: none;
+}
+header p,button,h1,a {
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: 'Pontano Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #FFFF;
+    cursor: pointer;
+}
+header h1 {
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content-top{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;   
+}
+header { 
+    background: #53D29D;
+    margin-top: 1px;  
+}
+.content-top button{
+    margin-left: 85px;
+    background-color: #53D29D;
+    border-radius: 20px ;
+    padding: 9px 15px;
+    border: 1px solid #2E512B;
+}
+.content-top h1 {
+    margin-right: 85px;
+    cursor: auto;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+section {
+    background-image:url(img/Recta.png);
+}
+.donat {
+    display:flex;
+    justify-content: space-between;
+    padding-top:132px ;
+}
+.pack {
+    text-align: center;
+    background: #fff;
+    margin: 30px;
+    background-image: url(img/image5.png);
+    
+    
+}
+.pack p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 7px;
+    color: #53D29D;
+}
+.pack button {
+    margin-top: -10px;
+    background: #53D29D;
+    border-radius: 48px;
+    padding: 16px 73px;
+    border: none;
+}
+
